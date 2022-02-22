@@ -43,6 +43,9 @@ nav{
             font-size: .8rem;
             font-weight: 500;
         }
+        @media (max-width:780px) {
+            font-size: 1.8vw;
+        }
     }
     ul{
         @media (max-width:480px) {
@@ -59,6 +62,9 @@ nav{
                 list-style: disc;
             }
             cursor: pointer;
+            @media (max-width:780px) {
+                font-size: 1.2vw;
+            }
         }
         .dropdwn{
             position: relative;
@@ -96,6 +102,7 @@ nav{
                     }
                     &:hover{
                         background-color: rgb(228, 154, 228);
+                        padding: 2%;
                     }
                 }
             }
@@ -109,6 +116,9 @@ nav{
     .login{
         @media (max-width:480px) {
             display: none;
+        }
+        @media (max-width:780px) {
+            font-size: 1.5vw;
         }
         background-color: grey;
         padding: 1% 4%;
@@ -131,7 +141,7 @@ nav{
         height: 100vh;
         width: 100%;
         top: 0;
-        left: 100%;
+        left: -100%;
         background-color: #271871;
         z-index: 10;
         transition: all .5s linear;
@@ -292,6 +302,10 @@ nav{
     p{
         padding-bottom: 2%;
         font-size: 1.2vw;
+        @media (max-width:480px) {
+            font-size: 1.2rem;
+            padding-bottom: 2%;
+        }
     }
     .img{
         background: url('https://altschoolafrica.com/_next/static/images/reader-7061e74965a01450a6ecc4f085e008af.png');
@@ -299,6 +313,9 @@ nav{
         background-repeat: no-repeat;
         width: 100%;
         height: 60vh;
+        @media (max-width:480px) {
+            background-position: 50% 10%;
+        }
     }
 }
 .fourth{
@@ -307,13 +324,28 @@ nav{
     height: 60vh;
     display: flex;
     position: relative;
+    @media (max-width:480px) {
+        flex-wrap: wrap;
+        height: 200vh;
+    }
     .left{
         width: 50%;
         font-size: 2.5vw;
         font-weight: 900;
+        @media (max-width:480px) {
+            width: 80%;
+            font-size: 1.5rem;
+            margin: auto;
+        }
     }
     .right{
         font-size: 1.2vw;
+        @media (max-width:480px) {
+            width: 100%;
+            font-size: 1rem;
+            margin: auto;
+            margin-top: -8%;
+        }
         p{
             line-height: 30px;
             font-weight: bold;
@@ -325,6 +357,10 @@ nav{
             font-size: 1.3vw;
             margin-top: 3%;
             border: none;
+            @media (max-width:480px) {
+                font-size: .9rem;
+                padding: 4% 8%;
+            }
         }
         .r1{
             width: 70px;
@@ -333,6 +369,10 @@ nav{
             position: absolute;
             left: 0;
             bottom: 0;
+            @media (max-width:480px) {
+                width: 35px;
+                height: 35px;
+            }
         }
         .r2{
             width: 70px;
@@ -341,6 +381,10 @@ nav{
             position: absolute;
             right: 0;
             bottom: 0;
+            @media (max-width:480px) {
+                width: 35px;
+                height: 35px;
+            }
         }
     }
 }
@@ -354,11 +398,22 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 15%;
+    @media (max-width:480px) {
+        flex-wrap: wrap;
+        height: 180vh;
+    }
     .l{
+        @media (max-width:480px) {
+            width: 80%;
+        }
         p{
             font-size: 1.5vw;
             text-align: left;
             margin: 4%;
+            @media (max-width:480px) {
+                font-size: 1.2rem;
+                margin-top: 5%;
+            }
         }
     }
     .pic{
@@ -368,16 +423,31 @@ nav{
         border-radius: 50%;
         background: url('https://altschoolafrica.com/_next/static/images/smiling_guy-bc861dcf98f91a14d2484b7ccdd5dfc3.png');
         background-size: cover;
+        @media (max-width:480px) {
+            width: 150px;
+            height: 150px;
+            margin: auto;
+        }
     }
     .r{
+        @media (max-width:480px) {
+            width: 80%;
+            margin-top: -40%;
+        }
         h2{
             font-size: 2vw;
             padding: 2%;
+            @media (max-width:480px) {
+                font-size: 1.5rem;
+            }
         }
         p{
             font-size: 1.5vw;
             line-height: 30px;
             padding: 2%;
+            @media (max-width:480px) {
+                font-size: 1.2rem;
+            }
         }
         button{
             padding: 4% 12%;
@@ -388,7 +458,7 @@ nav{
 
         }
         h1{
-            font-size: 3rem;
+            font-size: 2rem;
         }
     }
     .l1{
@@ -398,6 +468,11 @@ nav{
         position: absolute;
         left: 5.5%;
         top: 0;
+        @media (max-width:480px) {
+            width: 35px;
+            height: 35px;
+            left: 11.5%;
+        }
     }
     .l2{
         width: 70px;
@@ -406,6 +481,11 @@ nav{
         position: absolute;
         right: 5.5%;
         top: 0;
+        @media (max-width:480px) {
+            width: 35px;
+            height: 35px;
+            right: 11.5%;
+        }
     }
 }
 .six{
@@ -415,10 +495,17 @@ nav{
         padding: 2%;
         text-align: center;
         font-weight: 600;
+        @media (max-width:480px) {
+            font-size: 1.2rem;
+            margin-top: 2%;
+        }
     }
     h3{
         text-align: center;
         font-size: 3vw;
+        @media (max-width:480px) {
+            font-size: 1.2rem;
+        }
     }
 }
 .seven{
@@ -427,11 +514,20 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 4%;
+    @media (max-width:480px) {
+        flex-wrap: wrap;
+        gap: 80px;
+        height: 220vh;
+    }
     .sleft{
         width: 45%;
         height: 88vh;
         border: 2px solid #000;
         background-color: #FFF4E9;
+        @media (max-width:480px) {
+            width: 90%;
+            margin: auto;
+        }
         .Isleft{
             img{
                 background-color: #FFF4E9;
@@ -447,15 +543,24 @@ nav{
                 font-size: 2vw;
                 font-weight: 500;
                 padding: 1%;
+                @media (max-width:480px) {
+                    font-size: 1.2rem;
+                }
             }
             p{
                 font-size: 1.3vw;
                 font-weight: 500;
+                @media (max-width:480px) {
+                    font-size: .9rem;
+                }
             }
             a{
                 color: #6a6ff5;
                 text-decoration: none;
                 font-size: 1.3vw;
+                @media (max-width:480px) {
+                    font-size: .8rem;
+                }
             }
         }
     }
@@ -464,6 +569,10 @@ nav{
         height: 88vh;
         border: 2px solid #000;
         background-color: #fcd5d3;
+        @media (max-width:480px) {
+            width: 90%;
+            margin: auto;
+        }
         .Isright{
             img{
                 background-color: #fcd5d3;
@@ -479,15 +588,24 @@ nav{
                 font-size: 2vw;
                 font-weight: 500;
                 padding: 1%;
+                @media (max-width:480px) {
+                    font-size: 1.2rem;
+                }
             }
             p{
                 font-size: 1.3vw;
                 font-weight: 500;
+                @media (max-width:480px) {
+                    font-size: .9rem;
+                }
             }
             a{
                 color: #6a6ff5;
                 text-decoration: none;
                 font-size: 1.3vw;
+                @media (max-width:480px) {
+                    font-size: .8rem;
+                }
             }
         }
     }
@@ -503,6 +621,9 @@ nav{
         width: 60%;
         height: 90%;
         background: url('https://altschoolafrica.com/_next/static/images/preparebg-8d87f66a66922c77e694bc6774bf9c31.jpg') ;
+        @media (max-width:480px) {
+           width: 100%;
+        }
     }
     .eright{
         width: 45%;
@@ -512,15 +633,25 @@ nav{
         right: 2%;
         padding: 2%;
         z-index: 10;
+        @media (max-width:480px) {
+            right: 7%;
+            width: 85%;
+        }
         h2{
             margin-top: 6%;
             font-size: 2vw;
             padding-left: 4%;
+            @media (max-width:480px) {
+                font-size: 1.2rem;
+            }
         }
         p{
             font-size: 1.5vw;
             line-height: 30px;
             padding: 4%;
+            @media (max-width:480px) {
+                font-size: .8rem;
+            }
         }
         button{
             margin-left: 4%;
@@ -529,6 +660,9 @@ nav{
             border: none;
             color: white;
             font-size: 1.5vw;
+            @media (max-width:480px) {
+                font-size: 1rem;
+            }
         }
     }
 }
@@ -539,6 +673,9 @@ nav{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    @media (max-width:480px) {
+        height: 20vh;
+    }
     .bottom{
         width: 100%;
         img{
@@ -555,15 +692,25 @@ nav{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    @media (max-width:480px) {
+        flex-wrap: wrap;
+        width: 100%;
+    }
     .tleft{
         width: 60%;
         height: 100%;
         background-color: #000;
         padding: 4%;
+        @media (max-width:480px) {
+            width: 100%;
+        }
         h1{
             font-size: 2vw;
             color: white;
             padding-top: 5%;
+            @media (max-width:480px) {
+                font-size: 1.5rem;
+            }
         }
         p{
             font-size: 1.5vw;
@@ -571,6 +718,9 @@ nav{
             padding-top: 5%; 
             padding-top: 3%;
             padding-bottom: 3%;
+            @media (max-width:480px) {
+                font-size: 1rem;
+            }
         }
         button{
             padding: 2% 4%;
@@ -578,6 +728,10 @@ nav{
             font-size: 1.5vw;
             border: none;
             color: white;
+            @media (max-width:480px) {
+                padding: 4% 8%;
+                font-size: 1rem;
+            }
         }
     }
     .tright{
@@ -586,6 +740,9 @@ nav{
         background: url('https://altschoolafrica.com/_next/static/images/collab-f2eb368cd3bfe1f1437509e2d75bafaa.png');
         background-repeat: no-repeat;
         background-size: cover;
+        @media (max-width:480px) {
+            display: none;
+        }
     }
 }
 footer{
@@ -597,16 +754,28 @@ footer{
     padding: 5%;
     display: flex;
     justify-content: space-between;
+    @media (max-width:480px) {
+        flex-direction: column;
+    }
     .one{
         li{
             margin-bottom: 5%;
             font-size: 1.2vw;
             color: rgb(180, 176, 176);
             list-style-type: none;
+            @media (max-width:480px) {
+                font-size: .5rem;
+            }
             &:nth-child(1){
                 font-size: 20px;
                 color: white;
                 margin-bottom: 10%;
+                @media (max-width:480px) {
+                    font-size: .8rem;
+                }
+                @media (max-width:780px) {
+                    font-size: 1.5vw;
+                }
             }
         }
         span{
@@ -623,10 +792,21 @@ footer{
     z-index: 50;
     width: 50px;
     height: 50px;
-    background-color: #6773E5;
     transition: all 2s linear;
     border: none;
+    cursor: pointer;
     background: transparent;
+    i{
+        color:#6773E5 ;
+        font-size: 2.5vw;
+        transition: all .5s linear;
+        @media (max-width:480px) {
+            font-size: 2rem;
+        }
+        &:hover{
+            color: #271871;
+        }
+    }
 }
 .btn2{
     position: absolute;
@@ -639,6 +819,17 @@ footer{
     height: 50px;
     cursor: pointer;
     transition: all 2s linear;
+    i{        
+        transition: all .5s linear;
+        &:hover{
+            color: #271871;
+        }
+        color:#6773E5 ;
+        font-size: 2.5vw;
+        @media (max-width:480px) {
+            font-size: 2rem;
+        }
+    }
 }
 .fixed2{
     bottom: 50px;
