@@ -268,6 +268,12 @@ nav .menu .login {
   padding: 2%;
 }
 
+@media (max-width: 480px) {
+  nav .menu .login {
+    font-size: 1rem;
+  }
+}
+
 .animate {
   margin-top: 1%;
   background-color: #6773E5;
