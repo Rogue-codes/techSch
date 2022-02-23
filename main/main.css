@@ -364,7 +364,7 @@ nav .menu .login {
 
 @media (max-width: 480px) {
   .content {
-    margin-top: 10%;
+    margin-top: 20%;
     height: auto;
   }
 }
@@ -378,8 +378,10 @@ nav .menu .login {
 
 @media (max-width: 480px) {
   .content h1 {
-    font-size: 1.9rem;
-    width: 80%;
+    font-size: 2rem;
+    width: 100%;
+    margin-bottom: 2%;
+    line-height: 50px;
   }
 }
 
@@ -390,7 +392,7 @@ nav .menu .login {
 
 @media (max-width: 480px) {
   .content p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
   }
 }
@@ -407,9 +409,11 @@ nav .menu .login {
 
 @media (max-width: 480px) {
   .content button {
-    font-size: 1rem;
-    padding: 2% 6%;
+    font-size: 1.5rem;
+    padding: 4% 8%;
     text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
   }
 }
 
@@ -424,7 +428,7 @@ nav .menu .login {
 
 @media (max-width: 480px) {
   .content span {
-    font-size: .8rem;
+    font-size: .9rem;
     text-align: center;
   }
 }
