@@ -231,6 +231,12 @@ nav .menu ul {
   margin: 15% 5%;
 }
 
+@media (max-width: 480px) {
+  nav .menu ul li {
+    font-size: 1.5rem;
+  }
+}
+
 nav .menu ul .dropdwn {
   position: relative;
   display: inline-block;

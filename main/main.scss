@@ -161,6 +161,11 @@ nav{
             color: white;
             gap: 50px;
             margin: 15% 5%;
+            li{
+                @media (max-width:480px) {
+                    font-size: 1.5rem;
+                }
+            }
             .dropdwn{
                 position: relative;
                 display: inline-block;
